@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 111 111, 111, LIC=47GU5-G7XD2-121LE-533FH-5VIYK-LI1B2
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\KeilARM\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      CMSIS_AGDI.dll V1.21.0.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+F:\AirF103_Learn\led\LED.uvprojx
+Project File Date:  12/23/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(6): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+        GPIO_InitTypeDef GPIO_init;
+main.c(17): warning:  #1-D: last line of file ends without a newline
+  }
+main.c: 1 warning, 1 error
+compiling system_air32f10x.c...
+.\AIR32F10xLib\inc\air32f10x.h(7121): error:  #5: cannot open source input file "air32f10x_conf.h": No such file or directory
+    #include "air32f10x_conf.h"
+AIR32F10xLib\src\system_air32f10x.c: 0 warnings, 1 error
+compiling air32f10x_gpio.c...
+.\AIR32F10xLib\inc\air32f10x.h(7121): error:  #5: cannot open source input file "air32f10x_conf.h": No such file or directory
+    #include "air32f10x_conf.h"
+AIR32F10xLib\src\air32f10x_gpio.c: 0 warnings, 1 error
+compiling air32f10x_rcc.c...
+.\AIR32F10xLib\inc\air32f10x.h(7121): error:  #5: cannot open source input file "air32f10x_conf.h": No such file or directory
+    #include "air32f10x_conf.h"
+AIR32F10xLib\src\air32f10x_rcc.c: 0 warnings, 1 error
+compiling air32f10x_usart.c...
+.\AIR32F10xLib\inc\air32f10x.h(7121): error:  #5: cannot open source input file "air32f10x_conf.h": No such file or directory
+    #include "air32f10x_conf.h"
+AIR32F10xLib\src\air32f10x_usart.c: 0 warnings, 1 error
+compiling misc.c...
+.\AIR32F10xLib\inc\air32f10x.h(7121): error:  #5: cannot open source input file "air32f10x_conf.h": No such file or directory
+    #include "air32f10x_conf.h"
+AIR32F10xLib\src\misc.c: 0 warnings, 1 error
+compiling core_cm3.c...
+".\Objects\LED.axf" - 6 Error(s), 1 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\AirF103_Learn\led\RTE
+  D:\KeilARM\ARM\PACK\Keil\AIR32F103_DFP\1.0.6
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>

@@ -1,0 +1,44 @@
+Dependencies for Project 'LED', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x63A5CF3E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\AIR32F10xLib\inc -I.\CMSIS\Include -I..\led -I.\CORE-I F:\AirF103_Learn\led\RTE-I D:\KeilARM\ARM\PACK\Keil\AIR32F103_DFP\1.0.6-I D:\KeilARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DAIR32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\KeilARM\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (.\AIR32F10xLib\src\system_air32f10x.c)(0x6321E52E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\AIR32F10xLib\inc -I.\CMSIS\Include -I..\led -I.\CORE-I F:\AirF103_Learn\led\RTE-I D:\KeilARM\ARM\PACK\Keil\AIR32F103_DFP\1.0.6-I D:\KeilARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DAIR32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\system_air32f10x.o --omf_browse .\objects\system_air32f10x.crf --depend .\objects\system_air32f10x.d)
+I (.\AIR32F10xLib\inc\air32f10x.h)(0x6321E52E)
+I (.\CMSIS\Include\core_cm3.h)(0x6321E52E)
+I (D:\KeilARM\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\Include\core_cmInstr.h)(0x6321E52E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x6321E52E)
+I (.\AIR32F10xLib\inc\system_air32f10x.h)(0x6321E52E)
+F (.\AIR32F10xLib\src\air32f10x_gpio.c)(0x6321E52E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\AIR32F10xLib\inc -I.\CMSIS\Include -I..\led -I.\CORE-I F:\AirF103_Learn\led\RTE-I D:\KeilARM\ARM\PACK\Keil\AIR32F103_DFP\1.0.6-I D:\KeilARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DAIR32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\air32f10x_gpio.o --omf_browse .\objects\air32f10x_gpio.crf --depend .\objects\air32f10x_gpio.d)
+I (.\AIR32F10xLib\inc\air32f10x_gpio.h)(0x6321E52E)
+I (.\AIR32F10xLib\inc\air32f10x.h)(0x6321E52E)
+I (.\CMSIS\Include\core_cm3.h)(0x6321E52E)
+I (D:\KeilARM\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\Include\core_cmInstr.h)(0x6321E52E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x6321E52E)
+I (.\AIR32F10xLib\inc\system_air32f10x.h)(0x6321E52E)
+F (.\AIR32F10xLib\src\air32f10x_rcc.c)(0x6321E52E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\AIR32F10xLib\inc -I.\CMSIS\Include -I..\led -I.\CORE-I F:\AirF103_Learn\led\RTE-I D:\KeilARM\ARM\PACK\Keil\AIR32F103_DFP\1.0.6-I D:\KeilARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DAIR32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\air32f10x_rcc.o --omf_browse .\objects\air32f10x_rcc.crf --depend .\objects\air32f10x_rcc.d)
+I (.\AIR32F10xLib\inc\air32f10x_rcc.h)(0x6321E52E)
+I (.\AIR32F10xLib\inc\air32f10x.h)(0x6321E52E)
+I (.\CMSIS\Include\core_cm3.h)(0x6321E52E)
+I (D:\KeilARM\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\Include\core_cmInstr.h)(0x6321E52E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x6321E52E)
+I (.\AIR32F10xLib\inc\system_air32f10x.h)(0x6321E52E)
+F (.\AIR32F10xLib\src\air32f10x_usart.c)(0x6321E52E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\AIR32F10xLib\inc -I.\CMSIS\Include -I..\led -I.\CORE-I F:\AirF103_Learn\led\RTE-I D:\KeilARM\ARM\PACK\Keil\AIR32F103_DFP\1.0.6-I D:\KeilARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DAIR32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\air32f10x_usart.o --omf_browse .\objects\air32f10x_usart.crf --depend .\objects\air32f10x_usart.d)
+I (.\AIR32F10xLib\inc\air32f10x_usart.h)(0x6321E52E)
+I (.\AIR32F10xLib\inc\air32f10x.h)(0x6321E52E)
+I (.\CMSIS\Include\core_cm3.h)(0x6321E52E)
+I (D:\KeilARM\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\Include\core_cmInstr.h)(0x6321E52E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x6321E52E)
+I (.\AIR32F10xLib\inc\system_air32f10x.h)(0x6321E52E)
+F (.\AIR32F10xLib\src\misc.c)(0x6321E52E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\AIR32F10xLib\inc -I.\CMSIS\Include -I..\led -I.\CORE-I F:\AirF103_Learn\led\RTE-I D:\KeilARM\ARM\PACK\Keil\AIR32F103_DFP\1.0.6-I D:\KeilARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DAIR32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (.\AIR32F10xLib\inc\misc.h)(0x6321E52E)
+I (.\AIR32F10xLib\inc\air32f10x.h)(0x6321E52E)
+I (.\CMSIS\Include\core_cm3.h)(0x6321E52E)
+I (D:\KeilARM\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMSIS\Include\core_cmInstr.h)(0x6321E52E)
+I (.\CMSIS\Include\core_cmFunc.h)(0x6321E52E)
+I (.\AIR32F10xLib\inc\system_air32f10x.h)(0x6321E52E)
+F (.\CORE\core_cm3.c)(0x6321E52E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\AIR32F10xLib\inc -I.\CMSIS\Include -I..\led -I.\CORE-I F:\AirF103_Learn\led\RTE-I D:\KeilARM\ARM\PACK\Keil\AIR32F103_DFP\1.0.6-I D:\KeilARM\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DAIR32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\KeilARM\ARM\ARMCC\include\stdint.h)(0x5475F300)
